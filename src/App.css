@@ -1,29 +1,82 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0");
+
+html {
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#info {
+    font-family: cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* NAV */
+#nav:hover {
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#nav {
+    font-family: "Poppins";
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+/* HOME */
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+#about {
+    align-self: center;
+    text-align: center;
+}
+
+#about p {
+    font-weight: 300;
+    font-family: cursive;
+    font-size: 1.5rem;
+    cursor: default;
+}
+
+#pic {
+    align-self: center;
+}
+
+#pic:hover {
+    cursor: pointer;
+}
+
+#card {
+    border: 2px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+#others {
+    margin-left: 100px;
+    border: 2px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    height: 400px;
+    cursor: pointer;
+}
+
+#contdiv{
+    margin-top: 100px;
+    background-color: black;
+    height: 200px;
+}
+
+#con1{
+    /* align-self: center; */
+    margin-top: 75px;
+    margin-left: 550px;
+    padding: 20px;
+
+}
+#con2,#con3,#con4{
+    margin-top: 75px;
+    padding: 20px;
 }
